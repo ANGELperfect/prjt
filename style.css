@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+
+#countdown{
+    width: 100%;
+    background: linear-gradient(to right, #ff4b2b , #ff416c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#title h1{
+    color: white;
+    font-size: 6em;
+    margin-bottom: 0;
+}
+
+#title p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#title h1 span{
+    color: black;
+}
+
+
+
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 555px;
+    margin: 0 auto;
+}
+
+#timer div{
+    position: relative;
+    width: 100px;
+    color: white;
+    transition: 0.5s
+}
+
+#timer span{
+    display: block;
+    text-align: center;
+}
+
+#timer span:nth-child(1){
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#timer .br{
+    border-left: 1px solid white;
+}
+
+.sp{
+    padding-left: 25px;
+}
+
+#timer span:nth-child(2){
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+input[type="text"]{
+    background: white;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+}
+
+input[type="submit"]{
+    font-size: 1em;
+    color: white;
+    position: relative;
+    left: -5px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:#66CD00	 ;
+}
+
+@media (max-width : 1000px){
+    input[type="text"]{
+        background: white;
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 0 25px;
+    }
+    
+    input[type="submit"]{
+        font-size: 0.7em;
+        color: white;
+        position: relative;
+        left: -5px;
+        height: 50px;
+        width: 100px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background:#66CD00	 ;
+    }
+
+    #title h1{
+        color: white;
+        font-size: 4em;
+        margin-bottom: 0;
+    }
+    
+    #title p{
+        font-size: 12px;
+        color: white;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+    
+}
